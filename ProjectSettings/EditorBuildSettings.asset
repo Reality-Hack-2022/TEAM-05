@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultManagerScene.unity
+    guid: ae7bb08d297fb69408695d8de0962524
+  - enabled: 1
+    path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity
+    guid: 7e54e36c44f826c438c95da79f8de638
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 50167edf1e8a31d498f5ab76fc7f7aae, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 98dba95157cbdb748a8f907de4224925, type: 2}
