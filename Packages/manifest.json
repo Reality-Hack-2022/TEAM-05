@@ -9,6 +9,7 @@
     }
   ],
   "dependencies": {
+    "com.magicleap.soundfield": "1.2.37-b",
     "com.magicleap.unitysdk": "0.26.0",
     "com.unity.collab-proxy": "1.15.15",
     "com.unity.ide.rider": "2.0.7",

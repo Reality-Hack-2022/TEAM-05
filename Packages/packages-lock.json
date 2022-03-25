@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.magicleap.soundfield": {
+      "version": "1.2.37-b",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.org"
+    },
     "com.magicleap.unitysdk": {
       "version": "0.26.0",
       "depth": 0,
