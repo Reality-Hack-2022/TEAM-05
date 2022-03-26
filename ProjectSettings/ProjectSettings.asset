@@ -697,7 +697,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: C:/Users/NYIT/Downloads/test.cert
+    m_CertPath: C:/Users/NYIT/Downloads/lavinml.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:

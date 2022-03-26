@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 451dec9c0df3c2942bc24063a0bcde3d
   - enabled: 1
-    path: Assets/Scenes/AsiaLearn.unity
-    guid: 0518c7e14b27bb64db171ecf484acde0
-  - enabled: 1
     path: Assets/Scenes/EuropeLearn.unity
     guid: 8207590ef9ba2864ebe62696ed7482e6
   m_configObjects:
