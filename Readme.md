@@ -1,5 +1,5 @@
 # MIT Reality Hack - XR Hackathon
 
-## Sense School
+## Bridged XR
 
-Assistive learning for aiding people with learning disabilities using a multi-sensory experience in Mixed Reality
+Assistive learning for aiding people with learning disabilities, teaching Geography in Mixed Reality
