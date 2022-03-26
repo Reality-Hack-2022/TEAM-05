@@ -39,11 +39,7 @@ namespace Microsoft.MixedReality.Toolkit.UI.BoundsControl
         {
             get
             {
-                if (targetObject == null)
-                {
-                    targetObject = gameObject;
-                }
-
+                targetObject = gameObject;
                 return targetObject;
             }
 
@@ -75,16 +71,9 @@ namespace Microsoft.MixedReality.Toolkit.UI.BoundsControl
             get { return boundsOverride; }
             set
             {
-                if (boundsOverride != value)
-                {
-                    boundsOverride = value;
-
-                    if (boundsOverride == null)
-                    {
-                        prevBoundsOverride = new Bounds();
-                    }
-                    UpdateBounds();
-                }
+                boundsOverride = gameObject.GetComponent<BoxCollider>();
+                prevBoundsOverride = new Bounds();
+                UpdateBounds();
             }
         }
 

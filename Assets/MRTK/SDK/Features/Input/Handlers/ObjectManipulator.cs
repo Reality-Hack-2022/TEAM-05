@@ -65,11 +65,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
         {
             get
             {
-                if (hostTransform == null)
-                {
-                    hostTransform = gameObject.transform;
-                }
-
+                hostTransform = gameObject.transform;
                 return hostTransform;
             }
             set => hostTransform = value;

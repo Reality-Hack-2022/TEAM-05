@@ -47,6 +47,9 @@ public class ComponentsCopier
                 if (!copiedComponent)
                     continue;
 
+                if (copiedComponent.GetType().Equals(typeof(Transform)))
+                    continue;
+
                 UnityEditorInternal.ComponentUtility.CopyComponent(copiedComponent);
 
                 var targetComponent = targetGameObject.GetComponent(copiedComponent.GetType());

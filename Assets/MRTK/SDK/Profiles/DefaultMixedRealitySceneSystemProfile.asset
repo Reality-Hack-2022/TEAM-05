@@ -67,7 +67,7 @@ MonoBehaviour:
       IndirectOutputScale: 1
       AlbedoBoost: 1
       EnvironmentLightingMode: 0
-      EnableBakedLightmaps: 0
+      EnableBakedLightmaps: 1
       EnabledRealtimeLightmaps: 0
     SunlightSettings:
       UseSunlight: 1
@@ -80,4 +80,4 @@ MonoBehaviour:
   editorEnforceSceneOrder: 1
   editorManageLoadedScenes: 1
   editorEnforceLightingSceneTypes: 1
-  editorLightingCacheOutOfDate: 0
+  editorLightingCacheOutOfDate: 1
