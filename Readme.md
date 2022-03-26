@@ -3,3 +3,5 @@
 ## Bridged XR
 
 Assistive learning for aiding people with learning disabilities, teaching Geography in Mixed Reality
+
+![plot](BridgedXR.jpg)
