@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class MatchSystem : MonoBehaviour
 {
+    private void Start()
+    {
+        gameObject.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-2,2), 0, Random.Range(-2, 2));
+    }
     void OnTriggerEnter(Collider Collided)
     {
         if (Collided.name == gameObject.name)
@@ -14,14 +18,8 @@ public class MatchSystem : MonoBehaviour
 
     void Place(Collider PlaceColl)
     {
-        float time = 5.0f;
-        while(time > 0.0f)
-        {
-            gameObject.transform.position = PlaceColl.transform.position;
-            gameObject.transform.rotation = PlaceColl.transform.rotation;
-            time -= Time.deltaTime;
-        }
-        Physics.SyncTransforms();
+        gameObject.transform.position = PlaceColl.transform.position;
+        gameObject.transform.rotation = PlaceColl.transform.rotation;
         PlaceColl.GetComponent<MeshRenderer>().enabled = false;
         gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.green;
         gameObject.GetComponent<Rigidbody>().isKinematic = true;

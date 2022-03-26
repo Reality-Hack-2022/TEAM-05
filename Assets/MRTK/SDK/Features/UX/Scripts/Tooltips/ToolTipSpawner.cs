@@ -46,7 +46,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
         private float pivotDistance = 0.25f;
 
         [SerializeField]
-        private string toolTipText = "New Tooltip";
+        private string toolTipText;
 
         [SerializeField]
         private Transform anchor = null;
@@ -55,7 +55,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
         {
             var toolTip = spawnable.GetComponent<ToolTip>();
 
-            toolTip.ToolTipText = toolTipText;
+            toolTip.ToolTipText = gameObject.name;
             var connector = toolTip.GetComponent<ToolTipConnector>();
             connector.Target = (anchor != null) ? anchor.gameObject : gameObject;
 

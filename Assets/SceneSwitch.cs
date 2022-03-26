@@ -11,4 +11,8 @@ public class SceneSwitch : MonoBehaviour
         Debug.Log(SceneName);
         SceneManager.LoadScene(SceneName);
     }
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
