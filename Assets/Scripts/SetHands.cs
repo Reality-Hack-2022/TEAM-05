@@ -11,9 +11,6 @@ namespace MagicLeap.MRTK.DeviceManagement.Input
     {
         void Start()
         {
-            GameObject maincam = GameObject.Find("Main Camera");
-            GameObject scene = GameObject.Find("SceneContent");
-            scene.transform.LookAt(maincam.transform);
             MagicLeapDeviceManager.Instance.CurrentHandSettings = MagicLeapDeviceManager.HandSettings.Both;
         }
     }

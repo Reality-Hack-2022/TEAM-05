@@ -8,6 +8,7 @@ public class LearnSystem : MonoBehaviour, IMixedRealityPointerHandler
     GameObject country;
     public void OnPointerDown(MixedRealityPointerEventData eventData)
     {
+        gameObject.GetComponent<AudioSource>().PlayOneShot(Resources.Load("Music/" + gameObject.name, typeof(AudioClip)) as AudioClip);
         GameObject[] list = GameObject.FindGameObjectsWithTag("Wall");
         country = list.Where(obj => obj.name == gameObject.name).SingleOrDefault();
         pos = country.transform.position;

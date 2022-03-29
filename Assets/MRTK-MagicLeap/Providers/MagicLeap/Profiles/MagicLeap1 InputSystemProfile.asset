@@ -50,7 +50,7 @@ MonoBehaviour:
     reference: Microsoft.MixedReality.Toolkit.Input.FocusProvider, Microsoft.MixedReality.Toolkit.Services.InputSystem
   raycastProviderType:
     reference: Microsoft.MixedReality.Toolkit.Input.DefaultRaycastProvider, Microsoft.MixedReality.Toolkit.Services.InputSystem
-  focusQueryBufferSize: 128
+  focusQueryBufferSize: 1000
   shouldUseGraphicsRaycast: 1
   focusIndividualCompoundCollider: 0
   inputActionsProfile: {fileID: 11400000, guid: a239cfc11dc57484099abb298658d53e, type: 2}
