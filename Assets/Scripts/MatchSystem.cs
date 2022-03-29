@@ -23,6 +23,8 @@ public class MatchSystem : MonoBehaviour
         PlaceColl.GetComponent<MeshRenderer>().enabled = false;
         gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.green;
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
-        gameObject.GetComponent<AudioSource>().Play();
+        gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        gameObject.GetComponent<AudioSource>().PlayOneShot(Resources.Load("Music/Confirm", typeof(AudioClip)) as AudioClip);
     }
 }
